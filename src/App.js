@@ -8,7 +8,12 @@ function App() {
         <div
               className="buttons"
         >
-            <Button size="large">BUTTON</Button>
+            <Button
+                size="large"
+                onClick={()=>console.log('클릭됐다!')}
+            >
+                BUTTON
+            </Button>
             <Button>BUTTON</Button>
             <Button size="small">BUTTON</Button>
         </div>
