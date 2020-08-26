@@ -3,11 +3,11 @@ import './Button.scss';
 import classNames from 'classnames';
 
 
-function Button({children, size, color, outline}) {
+function Button({children, size, color, outline, fullWidth}) {
     return (
         <button
             className={
-                classNames('Button', size, color, {outline})
+                classNames('Button', size, color, {outline, fullWidth})
             }
         >
             {children}
